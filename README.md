@@ -10,9 +10,13 @@
 
     <code>bundle install</code>
 
-2. Run <code>rake db:setup</code> in order to setup database;
+2. Copy and edit the database configs:
 
-3. Start the aplication: <code>rails server</code> and done! You're ready to access the application:
+    <code>cp config/database.yml.example config/database.yml</code>
+
+3. Run <code>rake db:setup</code> in order to setup database;
+
+4. Start the aplication: <code>rails server</code> and done! You're ready to access the application:
 
     <pre>http://localhost:3000</pre>
 
