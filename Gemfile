@@ -3,7 +3,6 @@ ruby '1.9.3'
 
 gem 'rails', '3.2.13'
 gem 'jquery-rails'
-gem 'haml-rails'
 gem 'sqlite3'
 gem 'therubyracer'
 gem 'less-rails'

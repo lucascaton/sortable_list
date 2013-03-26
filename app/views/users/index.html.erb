@@ -1,0 +1,18 @@
+<div class='row'>
+  <div class='span12'>
+    <div class='hero-unit'>
+      <h2>Users</h2>
+      <h4>Sortable List</h4>
+    </div>
+
+    <div id='sortable_users'>
+      <ul>
+        <% @users.each do |user| %>
+          <li class='well' id='<%= user.id %>'>
+            <p class='name'><%= user.name %></p>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>
